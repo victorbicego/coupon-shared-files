@@ -1,7 +1,7 @@
 package com.coupon.shared_files.models.mappers;
 
-import com.coup.shared_entities.models.models.dtos.ConsumerDto;
-import com.coup.shared_entities.models.models.entities.Consumer;
+import com.coupon.shared_files.models.dtos.ConsumerDto;
+import com.coupon.shared_files.models.entities.Consumer;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
@@ -19,5 +19,4 @@ public class ConsumerMapper {
   public Consumer toEntity(ConsumerDto consumerDto) {
     return modelMapper.map(consumerDto, Consumer.class);
   }
-
 }

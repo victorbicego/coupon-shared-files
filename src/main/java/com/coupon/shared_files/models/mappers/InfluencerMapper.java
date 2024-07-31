@@ -1,7 +1,7 @@
 package com.coupon.shared_files.models.mappers;
 
-import com.coup.shared_entities.models.models.dtos.InfluencerDto;
-import com.coup.shared_entities.models.models.entities.Influencer;
+import com.coupon.shared_files.models.dtos.InfluencerDto;
+import com.coupon.shared_files.models.entities.Influencer;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

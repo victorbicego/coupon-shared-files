@@ -1,6 +1,6 @@
 package com.coupon.shared_files.models.dtos;
 
-import com.coup.shared_entities.models.models.enums.Role;
+import com.coupon.shared_files.models.enums.Role;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

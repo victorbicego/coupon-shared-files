@@ -1,7 +1,8 @@
 package com.coupon.shared_files.models.entities;
 
-import com.coup.shared_entities.models.models.enums.Role;
+import com.coupon.shared_files.models.enums.Role;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import java.time.LocalDateTime;
 import java.util.Collection;
